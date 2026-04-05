@@ -8,12 +8,12 @@ function hidetext() {
 
     let num = prompt("ek number enter karo:")
 
-if (num >= 0){
-    alert("positive")
-} 
-else if(num< 0) {
-    alert("negative")
-}
+    if (num >= 0) {
+        alert("positive")
+    }
+    else if (num < 0) {
+        alert("negative")
+    }
 
 
 }

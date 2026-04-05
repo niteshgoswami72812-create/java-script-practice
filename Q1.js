@@ -13,26 +13,26 @@ function hidetext() {
 
 
 
-let num = prompt("ek number enter karo:")
+    let num = prompt("ek number enter karo:")
 
-if (num %2==0){
-    alert("Even")
-} 
-else if ( num < 0){
-    alert("ple enter valid number")
+    if (num % 2 == 0) {
+        alert("Even")
+    }
+    else if (num < 0) {
+        alert("ple enter valid number")
+    }
+    else {
+        alert("odd")
+    }
+
 }
-else{
-    alert("odd")
-}
-
-}
 
 
 
 
 
 
-   
+
 
 
 
